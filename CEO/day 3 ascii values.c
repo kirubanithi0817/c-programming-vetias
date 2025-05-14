@@ -1,0 +1,15 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+   int rs,five,two,one,total;
+   scanf("%d",&rs);
+   five=rs/5;
+   two=rs%5/2;
+   one=rs%5%2/1;
+    printf("%d,%d,%d,%d",total,five,two,one);
+
+    return 0;
+}
